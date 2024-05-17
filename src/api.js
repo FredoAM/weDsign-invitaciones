@@ -1,43 +1,40 @@
-const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://wedsign-back-production.up.railway.app';
 
-export async function getInvitaciones() {
-  const response = await fetch(`${API_URL}/invitaciones`);
+export async function getInvitations() {
+  const response = await fetch(`${API_URL}/invitations`);
   return await response.json();
 }
 
-export async function getInvitacion(id) {
-  const response = await fetch(`${API_URL}/invitaciones/${id}`);
+export async function getInvitation(id) {
+  const response = await fetch(`${API_URL}/invitations/${id}`);
   return await response.json();
 }
 
-export async function crearInvitacion(invitacion) {
-  const response = await fetch(`${API_URL}/invitaciones`, {
+export async function createInvitation(invitation) {
+  const response = await fetch(`${API_URL}/invitations`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify(invitacion),
+    body: JSON.stringify(invitation),
   });
   return await response.json();
 }
 
-export async function editarInvitacion(id, invitacionActualizada) {
-  const response = await fetch(`${API_URL}/invitaciones/${id}`, {
+export async function editInvitation(id, updatedInvitation) {
+  const response = await fetch(`${API_URL}/invitations/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify(invitacionActualizada),
+    body: JSON.stringify(updatedInvitation),
   });
   return await response.json();
 }
 
-export async function eliminarInvitacion(id) {
-  const response = await fetch(`${API_URL}/invitaciones/${id}`, {
+export async function deleteInvitation(id) {
+  const response = await fetch(`${API_URL}/invitations/${id}`, {
     method: 'DELETE',
   });
   return await response.json();
 }
-
-
-

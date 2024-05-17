@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
-import { getInvitacion, editarInvitacion } from './api';
+import { getInvitation, editInvitation } from './api.js';
 import './App.css'
 import './css/animate.css'
 import './css/bootstrap.min.css'
@@ -20,21 +20,21 @@ import './js/sticky-kit.min.js'
 import './js/jquery.magnific-popup.min.js'
 import './js/owl.carousel.min.js'
 import './js/main.js'
-import {Heading, Box, Container, Radio , Flex, Text, NumberInput, NumberInputField, NumberInputStepper, NumberIncrementStepper, NumberDecrementStepper, FormControl, FormLabel, Button, Input, Checkbox, Spacer, UnorderedList, ListItem } from '@chakra-ui/react';
+import { Flex, Button} from '@chakra-ui/react';
 
 
 function Confirmar() {
 
 
     const { id } = useParams();
-    const [invitacion, setInvitacion] = useState([]);
+    const [invitation, setInvitation] = useState([]);
   
     useEffect(() => {
-      async function fetchInvitacion() {
-        const data = await getInvitacion(id);
-        setInvitacion(data[0]);
+      async function fetchInvitation() {
+        const data = await getInvitation(id);
+        setInvitation(data[0]);
       }
-      fetchInvitacion();
+      fetchInvitation();
     }, []);
 
     useEffect(() => {
@@ -61,8 +61,8 @@ function Confirmar() {
         
         const confirmacion = window.confirm(answer ? '¿Confirmas tu asistencia?' : '¿Declinas tu asistencia?');
         if (confirmacion) {
-          const formData = { ...invitacion, asistencia: answer, pendiente: false };
-          await editarInvitacion(id, formData);
+          const formData = { ...invitation, asistencia: answer, pendiente: false };
+          await editInvitation(id, formData);
         }
       };
 
@@ -460,15 +460,15 @@ function Confirmar() {
                     <div className="row">
                       <div className="col-md-12">
                         <div className="form-group">
-                          <input name="name" type="text" className="form-control" placeholder={invitacion?.nombre} required readOnly/> </div>
+                          <input name="name" type="text" className="form-control" placeholder={invitation?.name} required readOnly/> </div>
                       </div>
                       {/* <div className="col-md-12">
                         <div className="form-group">
-                          <input name="email" type="email" className="form-control" value={invitacion.nombre} placeholder="Email" required /> </div>
+                          <input name="email" type="email" className="form-control" value={invitation.nombre} placeholder="Email" required /> </div>
                       </div> */}
                       <div className="col-md-12">
                         <div className="form-group">
-                          <input name="guests" type="text" className="form-control" placeholder={invitacion?.cantidadInvitados}  required readOnly/> </div>
+                          <input name="guests" type="text" className="form-control" placeholder={invitation?.numberOfGuests}  required readOnly/> </div>
                       </div>
                       <div className="col-md-12">
                         <div className="form-group">
@@ -476,8 +476,8 @@ function Confirmar() {
                         </div>
                       </div>
                       <Flex className="col-md-12" style={{'gap':'30px'}}>
-                        <Button name="submit" type="submit" onClick={(e)=> handleActualizar(e, invitacion.id, true)} backgroundColor= {'#BD945A'} style={{ 'color':'#fff', 'fontFamily':'Nunito Sans, sans-serif','padding':'15px 30px','fontWeight':'400','letterSpacing':'2px', 'borderRadius':'0px'}}  _hover={{backgroundColor: "blue.700"}}  _active={{backgroundColor: "#FFF"}}>CONFIRMAR</Button>
-                        <Button name="submit" type="submit"  onClick={(e)=> handleActualizar(e, invitacion.id, false)} backgroundColor= {'#BD945A'} style={{ 'color':'#fff', 'fontFamily':'Nunito Sans, sans-serif','padding':'15px 30px','fontWeight':'400','letterSpacing':'2px', 'borderRadius':'0px'}}  _hover={{backgroundColor: "blue.700"}} _active={{backgroundColor: "#FFF"}} >DECLINAR</Button>
+                        <Button name="submit" type="submit" onClick={(e)=> handleActualizar(e, invitation.id, true)} backgroundColor= {'#BD945A'} style={{ 'color':'#fff', 'fontFamily':'Nunito Sans, sans-serif','padding':'15px 30px','fontWeight':'400','letterSpacing':'2px', 'borderRadius':'0px'}}  _hover={{backgroundColor: "blue.700"}}  _active={{backgroundColor: "#FFF"}}>CONFIRM</Button>
+                        <Button name="submit" type="submit"  onClick={(e)=> handleActualizar(e, invitation.id, false)} backgroundColor= {'#BD945A'} style={{ 'color':'#fff', 'fontFamily':'Nunito Sans, sans-serif','padding':'15px 30px','fontWeight':'400','letterSpacing':'2px', 'borderRadius':'0px'}}  _hover={{backgroundColor: "blue.700"}} _active={{backgroundColor: "#FFF"}} >DECLINE</Button>
                       </Flex>
                     </div>
                   </form>
