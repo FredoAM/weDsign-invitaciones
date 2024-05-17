@@ -23,7 +23,7 @@ import './js/main.js'
 import { Flex, Button} from '@chakra-ui/react';
 
 
-function Confirmar() {
+function Confirm() {
 
 
     const { id } = useParams();
@@ -547,4 +547,4 @@ function Confirmar() {
   )
 }
 
-export default Confirmar
+export default Confirm
