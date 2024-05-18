@@ -12,7 +12,7 @@ import './css/themify-icons.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './js/jquery.min.js'
 // import './js/modernizr-2.6.2.min.js'
-import './js/jquery.easing.1.3.js'
+//import './js/jquery.easing.1.3.js'
 import './js/bootstrap.min.js'
 import './js/jquery.waypoints.min.js'
 import './js/sticky-kit.min.js'
