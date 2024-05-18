@@ -11,12 +11,12 @@ import './css/style.css'
 import './css/themify-icons.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './js/jquery.min.js'
-// import './js/modernizr-2.6.2.min.js'
+import './js/modernizr-2.6.2.min.js'
 import './js/jquery.easing.1.3.js'
 import './js/bootstrap.min.js'
 import './js/jquery.waypoints.min.js'
 import './js/sticky-kit.min.js'
-// import './js/isotope.js'
+import './js/isotope.js'
 import './js/jquery.magnific-popup.min.js'
 import './js/owl.carousel.min.js'
 import './js/main.js'
@@ -532,7 +532,7 @@ function Confirm() {
           </div>
         </div>
 
-         {/* <script src="js/jquery.min.js"></script>
+         <script src="js/jquery.min.js"></script>
         <script src="js/modernizr-2.6.2.min.js"></script>
         <script src="js/jquery.easing.1.3.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -541,7 +541,7 @@ function Confirm() {
         <script src="js/isotope.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
-        <script src="js/main.js"></script>  */}
+        <script src="js/main.js"></script> 
       </div>
     </>
   )
