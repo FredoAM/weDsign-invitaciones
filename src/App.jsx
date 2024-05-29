@@ -1,4 +1,7 @@
+
+
 import { useEffect } from 'react'
+
 import './App.css'
 import './css/animate.css'
 import './css/bootstrap.min.css'
@@ -18,6 +21,7 @@ import './js/sticky-kit.min.js'
 import './js/jquery.magnific-popup.min.js'
 import './js/owl.carousel.min.js'
 import './js/main.js'
+
 
 function App() {
 
