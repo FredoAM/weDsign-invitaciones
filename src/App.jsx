@@ -26,24 +26,24 @@ import './js/main.js'
 function App() {
 
 
-    useEffect(() => {
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 20,
-        nav: false,
-        responsive: {
-          0: {
-            items: 1
-          },
-          500: {
-            items: 2
-          },
-          700: {
-            items: 3
-          }
-        }
-      });
-    }, []);
+    // useEffect(() => {
+    //   $('.owl-carousel').owlCarousel({
+    //     loop: true,
+    //     margin: 20,
+    //     nav: false,
+    //     responsive: {
+    //       0: {
+    //         items: 1
+    //       },
+    //       500: {
+    //         items: 2
+    //       },
+    //       700: {
+    //         items: 3
+    //       }
+    //     }
+    //   });
+    // }, []);
 
 
   return (
@@ -512,7 +512,7 @@ function App() {
           </div>
         </div>
 
-         <script src="js/jquery.min.js"></script>
+         {/* <script src="js/jquery.min.js"></script>
         <script src="js/modernizr-2.6.2.min.js"></script>
         <script src="js/jquery.easing.1.3.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -521,7 +521,7 @@ function App() {
         <script src="js/isotope.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
-        <script src="js/main.js"></script>  *
+        <script src="js/main.js"></script>  * */}
       </div>
     </>
   )
