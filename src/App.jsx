@@ -26,7 +26,7 @@ function App() {
         <aside id="oliven-aside">
           <div className="oliven-logo">
             <a href="index.html">
-              <img src="/src/images/logo.png" alt="" />
+              <img src="logo.png" alt="" />
               <span>Olivia <small>&</small> Brandon</span>
               <h6>15.11.2024</h6>
             </a>
@@ -72,7 +72,7 @@ function App() {
               <div className="row mb-60">
                 <div className="col-md-6">
                   <div className="item toright mb-30 animate-box" data-animate-effect="fadeInLeft">
-                    <div className="img"> <img src="/src/images/bride.jpg" alt="" /> </div>
+                    <div className="img"> <img src="bride.jpg" alt="" /> </div>
                     <div className="info valign">
                       <div className="full-width">
                         <h6>Olivia Martin <i className="ti-heart"></i></h6> <span>The Bride</span>
@@ -90,7 +90,7 @@ function App() {
                 </div>
                 <div className="col-md-6">
                   <div className="item mb-30 animate-box" data-animate-effect="fadeInRight">
-                    <div className="img"> <img src="/src/images/groom.jpg" alt="" /> </div>
+                    <div className="img"> <img src="groom.jpg" alt="" /> </div>
                     <div className="info valign">
                       <div className="full-width">
                         <h6>Brandon Danilo <i className="ti-heart"></i></h6> <span>The Groom</span>
@@ -115,7 +115,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div id="countdown" className="section-padding bg-img bg-fixed" style={{backgroundImage: `url(/src/images/banner-1.jpg)`}}>
+          <div id="countdown" className="section-padding bg-img bg-fixed" style={{backgroundImage: `url(banner-1.jpg)`}}>
             <div className="container">
               <div className="row">
                 <div className="section-head col-md-12">
@@ -140,7 +140,7 @@ function App() {
               <div className="row">
                 <div className="col-md-5 mb-30">
                   <div className="story-img animate-box" data-animate-effect="fadeInLeft">
-                    <div className="img"> <img src="/src/images/story.jpg" className="img-fluid" alt="" /> </div>
+                    <div className="img"> <img src="story.jpg" className="img-fluid" alt="" /> </div>
                     <div className="story-img-2 story-wedding" style={{backgroundImage: 'url(images/wedding-logo.png)'}}></div>
                   </div>
                 </div>
@@ -169,7 +169,7 @@ function App() {
                 <div className="col-md-12">
                   <div className="owl-carousel owl-theme">
                     <div className="item">
-                      <div className="img"> <img src="/src/images/friends/b1.jpg" alt="" /> </div>
+                      <div className="img"> <img src="friends/b1.jpg" alt="" /> </div>
                       <div className="info valign">
                         <div className="full-width">
                           <h6>Eleanor Chris</h6><span>Bridesmaids</span>
@@ -178,7 +178,7 @@ function App() {
                       </div>
                     </div>
                     <div className="item">
-                      <div className="img"> <img src="/src/images/friends/w1.jpg" alt="" /> </div>
+                      <div className="img"> <img src="friends/w1.jpg" alt="" /> </div>
                       <div className="info valign">
                         <div className="full-width">
                           <h6>Stefano Smiht</h6><span>Groomsmen</span>
@@ -187,7 +187,7 @@ function App() {
                       </div>
                     </div>
                     <div className="item">
-                      <div className="img"> <img src="/src/images/friends/b2.jpg" alt="" /> </div>
+                      <div className="img"> <img src="friends/b2.jpg" alt="" /> </div>
                       <div className="info valign">
                         <div className="full-width">
                           <h6>Vanessa Brown</h6><span>Bridesmaids</span>
@@ -196,7 +196,7 @@ function App() {
                       </div>
                     </div>
                     <div className="item">
-                      <div className="img"> <img src="/src/images/friends/w2.jpg" alt="" /> </div>
+                      <div className="img"> <img src="friends/w2.jpg" alt="" /> </div>
                       <div className="info valign">
                         <div className="full-width">
                           <h6>Matthew Brown</h6><span>Groomsmen</span>
@@ -205,7 +205,7 @@ function App() {
                       </div>
                     </div>
                     <div className="item">
-                      <div className="img"> <img src="/src/images/friends/b3.jpg" alt="" /> </div>
+                      <div className="img"> <img src="friends/b3.jpg" alt="" /> </div>
                       <div className="info valign">
                         <div className="full-width">
                           <h6>Fredia Halle</h6><span>Bridesmaids</span>
@@ -214,7 +214,7 @@ function App() {
                       </div>
                     </div>
                     <div className="item">
-                      <div className="img"> <img src="/src/images/friends/w3.jpg" alt="" /> </div>
+                      <div className="img"> <img src="friends/w3.jpg" alt="" /> </div>
                       <div className="info valign">
                         <div className="full-width">
                           <h6>Pablo Dante</h6><span>Groomsmen</span>
@@ -228,7 +228,7 @@ function App() {
             </div>
           </div>
 
-          <div id="seeyou" className="seeyou section-padding bg-img bg-fixed" style={{backgroundImage: `url(/src/images/banner-3.jpg)`}}>
+          <div id="seeyou" className="seeyou section-padding bg-img bg-fixed" style={{backgroundImage: `url(banner-3.jpg)`}}>
             <div className="container">
               <div className="row">
                 <div className="section-head col-md-12 text-center">
@@ -248,7 +248,7 @@ function App() {
                   <h2 className="oliven-title">Organization</h2>
                 </div>
               </div>
-              <div className="row bord-box bg-img" style={{backgroundImage: `url(/src/images/slider.jpg)`}}>
+              <div className="row bord-box bg-img" style={{backgroundImage: `url(slider.jpg)`}}>
                 <div className="col-md-3 item-box">
                   <h2 className="custom-font numb">01</h2>
                   <h6 className="title">Ceremony</h6>
@@ -294,7 +294,7 @@ function App() {
                 <div className="col-md-4 gallery-item ceremony">
                   <a href="images/gallery/1.jpg" className="img-zoom">
                     <div className="gallery-box">
-                      <div className="gallery-img"> <img src="/src/images/gallery/1.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
+                      <div className="gallery-img"> <img src="gallery/1.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
                       <div className="gallery-detail">
                         <h4 className="mb-0">Wedding Ceremony</h4>
                       </div>
@@ -304,7 +304,7 @@ function App() {
                 <div className="col-md-4 gallery-item party">
                   <a href="images/gallery/2.jpg" className="img-zoom">
                     <div className="gallery-box">
-                      <div className="gallery-img"> <img src="/src/images/gallery/2.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
+                      <div className="gallery-img"> <img src="gallery/2.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
                       <div className="gallery-detail">
                         <h4 className="mb-0">Wedding Party</h4> </div>
                     </div>
@@ -313,7 +313,7 @@ function App() {
                 <div className="col-md-4 gallery-item ceremony">
                   <a href="images/gallery/3.jpg" className="img-zoom">
                     <div className="gallery-box">
-                      <div className="gallery-img"> <img src="/src/images/gallery/3.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
+                      <div className="gallery-img"> <img src="gallery/3.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
                       <div className="gallery-detail">
                         <h4 className="mb-0">Wedding Ceremony</h4> </div>
                     </div>
@@ -322,7 +322,7 @@ function App() {
                 <div className="col-md-4 gallery-item party">
                   <a href="images/gallery/4.jpg" className="img-zoom">
                     <div className="gallery-box">
-                      <div className="gallery-img"> <img src="/src/images/gallery/4.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
+                      <div className="gallery-img"> <img src="gallery/4.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
                       <div className="gallery-detail">
                         <h4 className="mb-0">Wedding Party</h4> </div>
                     </div>
@@ -331,7 +331,7 @@ function App() {
                 <div className="col-md-4 gallery-item ceremony">
                   <a href="images/gallery/5.jpg" className="img-zoom">
                     <div className="gallery-box">
-                      <div className="gallery-img"> <img src="/src/images/gallery/5.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
+                      <div className="gallery-img"> <img src="gallery/5.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
                       <div className="gallery-detail">
                         <h4 className="mb-0">Wedding Ceremony</h4> </div>
                     </div>
@@ -340,7 +340,7 @@ function App() {
                 <div className="col-md-4 gallery-item party">
                   <a href="images/gallery/6.jpg" className="img-zoom">
                     <div className="gallery-box">
-                      <div className="gallery-img"> <img src="/src/images/gallery/6.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
+                      <div className="gallery-img"> <img src="gallery/6.jpg" className="img-fluid mx-auto d-block" alt="" /> </div>
                       <div className="gallery-detail">
                         <h4 className="mb-0">Wedding Party</h4> </div>
                     </div>
@@ -360,7 +360,7 @@ function App() {
                 <div className="col-md-12">
                   <div className="owl-carousel owl-theme">
                     <div className="item">
-                      <div className="whenwhere-img"> <img src="/src/images/whenwhere/3.jpg" alt="" /></div>
+                      <div className="whenwhere-img"> <img src="whenwhere/3.jpg" alt="" /></div>
                       <div className="content">
                         <h5>Wedding Ceremony</h5>
                         <p><i className="ti-location-pin"></i> 175  Broadway,  Fortune Brooklyn, New York 11244, USA: </p>
@@ -368,7 +368,7 @@ function App() {
                       </div>
                     </div>
                     <div className="item">
-                      <div className="whenwhere-img"> <img src="/src/images/whenwhere/1.jpg" alt="" /></div>
+                      <div className="whenwhere-img"> <img src="whenwhere/1.jpg" alt="" /></div>
                       <div className="content">
                         <h5>Weddding Party</h5>
                         <p><i className="ti-location-pin"></i> Fortune Brooklyn restaurant, 149 Broadway, Brooklyn, NY, USA</p>
@@ -376,7 +376,7 @@ function App() {
                       </div>
                     </div>
                     <div className="item">
-                      <div className="whenwhere-img"> <img src="/src/images/whenwhere/2.jpg" alt="" /></div>
+                      <div className="whenwhere-img"> <img src="whenwhere/2.jpg" alt="" /></div>
                       <div className="content">
                         <h5>Accomodations</h5>
                         <p><i className="ti-direction-alt"></i> Hotel and distance from wedding party restaurant:</p>
@@ -389,7 +389,7 @@ function App() {
             </div>
           </div>
 
-          <div id="rsvp" className="section-padding bg-img bg-fixed" style={{backgroundImage: `url(/src/images/banner-2.jpg)`}}>
+          <div id="rsvp" className="section-padding bg-img bg-fixed" style={{backgroundImage: `url(banner-2.jpg)`}}>
             <div className="container">
               <div className="row">
                 <div className="col-md-6 offset-md-3 bg-white p-40"> <span className="oliven-title-meta text-center">Will you attend?</span>
@@ -444,22 +444,22 @@ function App() {
                 <div className="col-md-9">
                   <div className="owl-carousel">
                     <div className="client-logo">
-                      <a href="#"><img src="/src/images/gift/1.jpg" alt="" /></a>
+                      <a href="#"><img src="gift/1.jpg" alt="" /></a>
                     </div>
                     <div className="client-logo">
-                      <a href="#"><img src="/src/images/gift/2.jpg" alt="" /></a>
+                      <a href="#"><img src="gift/2.jpg" alt="" /></a>
                     </div>
                     <div className="client-logo">
-                      <a href="#"><img src="/src/images/gift/3.jpg" alt="" /></a>
+                      <a href="#"><img src="gift/3.jpg" alt="" /></a>
                     </div>
                     <div className="client-logo">
-                      <a href="#"><img src="/src/images/gift/4.jpg" alt="" /></a>
+                      <a href="#"><img src="gift/4.jpg" alt="" /></a>
                     </div>
                     <div className="client-logo">
-                      <a href="#"><img src="/src/images/gift/5.jpg" alt="" /></a>
+                      <a href="#"><img src="gift/5.jpg" alt="" /></a>
                     </div>
                     <div className="client-logo">
-                      <a href="#"><img src="/src/images/gift/6.jpg" alt="" /></a>
+                      <a href="#"><img src="gift/6.jpg" alt="" /></a>
                     </div>
                   </div>
                 </div>
@@ -472,7 +472,7 @@ function App() {
               <div className="row">
                 <div className="col-md-12 text-center">
                   <h2>
-                    <a href="index.html"><img src="/src/images/logo.png" alt="" /><span>Olivia <small>&</small> Brandon</span></a>
+                    <a href="index.html"><img src="logo.png" alt="" /><span>Olivia <small>&</small> Brandon</span></a>
                   </h2>
                   <p className="copyright">December 15, 2024 – Monterrey, Nuevo León</p>
                 </div>
