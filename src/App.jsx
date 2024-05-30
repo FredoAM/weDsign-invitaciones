@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './js/bootstrap.min.js'
 // import './js/jquery.min.js'
 // //import './js/modernizr-2.6.2.min.js'
-// //import './js/jquery.easing.1.3.js'
+import './js/jquery.easing.1.3.js'
 // import './js/bootstrap.min.js'
 // import './js/jquery.waypoints.min.js'
 // import './js/sticky-kit.min.js'
@@ -150,7 +150,7 @@ function App() {
                 <div className="col-md-5 mb-30">
                   <div className="story-img animate-box" data-animate-effect="fadeInLeft">
                     <div className="img"> <img src="story.jpg" className="img-fluid" alt="" /> </div>
-                    <div className="story-img-2 story-wedding" style={{backgroundImage: 'url(images/wedding-logo.png)'}}></div>
+                    <div className="story-img-2 story-wedding" style={{backgroundImage: 'url(wedding-logo.png)'}}></div>
                   </div>
                 </div>
                 <div className="col-md-7 animate-box" data-animate-effect="fadeInRight">
