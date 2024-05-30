@@ -209,14 +209,15 @@
     $(window).on("load", function () {
     var e = $(".gallery-filter")
         , a = $("#gallery-filter");
-    e.isotope({
-        filter: "*"
-        , layoutMode: "masonry"
-        , animationOptions: {
-            duration: 750
-            , easing: "linear"
-        }
-    }), a.find("a").on("click", function () {
+    // e.isotope({
+    //     filter: "*"
+    //     , layoutMode: "masonry"
+    //     , animationOptions: {
+    //         duration: 750
+    //         , easing: "linear"
+    //     }
+    //}), 
+    a.find("a").on("click", function () {
         var o = $(this).attr("data-filter");
         return a.find("a").removeClass("active"), $(this).addClass("active"), e.isotope({
             filter: o
@@ -293,17 +294,17 @@
           document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
 
         //do something later when date is reached
-        if (distance < 0) {
-          let headline = document.getElementById("headline"),
-              countdown = document.getElementById("countdown"),
-              content = document.getElementById("content");
+        // if (distance < 0) {
+        //   let headline = document.getElementById("headline"),
+        //       countdown = document.getElementById("countdown"),
+        //       content = document.getElementById("content");
 
-          headline.innerText = "It's our wedding!";
-          countdown.style.display = "none";
-          content.style.display = "block";
+        //   headline.innerText = "It's our wedding!";
+        //   countdown.style.display = "none";
+        //   content.style.display = "block";
 
-          clearInterval(x);
-        }
+        //   clearInterval(x);
+        // }
         //seconds
       }, 0)
   }());

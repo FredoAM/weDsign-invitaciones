@@ -505,11 +505,11 @@ input[type=radio]:checked:before {
     color: #BD945A;
 }
 
-.owl-carousel .owl-nav button.owl-next, 
+/* .owl-carousel .owl-nav button.owl-next, 
 .owl-carousel .owl-nav button.owl-prev, 
 .owl-carousel button.owl-dot {
-    outline: none;
-}
+    outline: none;
+} */
 
 /* ===== Sidebar style ===== */
 #oliven-page {
@@ -858,7 +858,6 @@ body.offcanvason .oliven-nav-toggle {
 .header {
     min-height: 100vh;
     overflow: hidden;
-    background-image: url(../images/slider.jpg);
 }
 .header .caption .o-hidden {
     display: inline-block;
