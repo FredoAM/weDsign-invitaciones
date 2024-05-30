@@ -20,12 +20,12 @@ import "./assets/css/style.css"
 
 
 import './assets/js/jquery.min.js'
-import './assets/js/modernizr-2.6.2.min.js'
+// import './assets/js/modernizr-2.6.2.min.js'
 import './assets/js/jquery.easing.1.3.js'
 import './assets/js/bootstrap.min.js'
 import './assets/js/jquery.waypoints.min.js'
 import './assets/js/sticky-kit.min.js'
-import './assets/js/isotope.js'
+// import './assets/js/isotope.js'
 import './assets/js/jquery.magnific-popup.min.js'
 import './assets/js/owl.carousel.min.js'
 import './assets/js/main.js'
