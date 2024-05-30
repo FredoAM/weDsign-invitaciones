@@ -15,7 +15,7 @@ import "./assets/css/style.css"
 
 import './assets/js/jquery.min.js'
 //import './assets/js/modernizr-2.6.2.min.js'
-import './assets/js/jquery.easing.1.3.js'
+//import './assets/js/jquery.easing.1.3.js'
 import './assets/js/bootstrap.min.js'
 import './assets/js/jquery.waypoints.min.js'
 import './assets/js/sticky-kit.min.js'
