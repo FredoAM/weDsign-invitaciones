@@ -1,17 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
-import $ from 'jquery';
+import inject from "@rollup/plugin-inject";
 
 
 export default defineConfig({
   plugins: [
+      //  inject({   // => that should be first under plugins array
+      //    $: 'jquery',
+      //    jQuery: 'jquery',
+      //  }),
     react(),
-    {
-      name: 'jquery',
-      setup() {
-        
-        window.$ = $;
-      },
-    },
   ],
-});
+})
