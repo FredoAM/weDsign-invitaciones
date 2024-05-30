@@ -1,7 +1,5 @@
 
 
-import { useEffect } from 'react'
-
 import './App.css'
 import './css/animate.css'
 import './css/bootstrap.min.css'
@@ -24,26 +22,6 @@ import './js/main.js'
 
 
 function App() {
-
-
-    // useEffect(() => {
-    //   $('.owl-carousel').owlCarousel({
-    //     loop: true,
-    //     margin: 20,
-    //     nav: false,
-    //     responsive: {
-    //       0: {
-    //         items: 1
-    //       },
-    //       500: {
-    //         items: 2
-    //       },
-    //       700: {
-    //         items: 3
-    //       }
-    //     }
-    //   });
-    // }, []);
 
 
   return (

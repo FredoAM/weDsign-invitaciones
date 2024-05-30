@@ -17,6 +17,7 @@
     "@types/jquery": "^3.5.29",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.0.27",
+    "jquery": "^3.7.1",
     "owl.carousel": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
