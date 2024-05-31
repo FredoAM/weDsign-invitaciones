@@ -8,8 +8,8 @@ import "./assets/css/animate.css"
 import "./assets/css/themify-icons.css"
 import "./assets/css/bootstrap.min.css"
 import "./assets/css/magnific-popup.css"
-import "./assets/css/owl.carousel.min.css"
-import "./assets/css/owl.theme.default.min.css"
+// import "./assets/css/owl.carousel.min.css"
+// import "./assets/css/owl.theme.default.min.css"
 import "./assets/css/style.css"
 
 
@@ -21,7 +21,7 @@ import './assets/js/bootstrap.min.js'
 //import './assets/js/sticky-kit.min.js'
 //import './assets/js/isotope.js'
 //import './assets/js/jquery.magnific-popup.min.js'
-import './assets/js/owl.carousel.min.js'
+// import './assets/js/owl.carousel.min.js'
 import './assets/js/main.js'
 
 function App() {
@@ -49,24 +49,24 @@ function App() {
     }
   };
 
-  useEffect(() => {
-    $('.owl-carousel').owlCarousel({
-      loop: true,
-      margin: 20,
-      nav: false,
-      responsive: {
-        0: {
-          items: 1
-        },
-        500: {
-          items: 2
-        },
-        700: {
-          items: 3
-        }
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   $('.owl-carousel').owlCarousel({
+  //     loop: true,
+  //     margin: 20,
+  //     nav: false,
+  //     responsive: {
+  //       0: {
+  //         items: 1
+  //       },
+  //       500: {
+  //         items: 2
+  //       },
+  //       700: {
+  //         items: 3
+  //       }
+  //     }
+  //   });
+  // }, []);
 
 
 
